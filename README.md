@@ -234,7 +234,6 @@ Errors are returned in a consistent format as well.
 5. The user can generate workouts, log nutrition, monitor progress, and interact with the AI coach.
 
 ## Notes on AI Features
-
 The AI coach integrates with external model providers through the configured API keys. The project uses LangGraph and LangChain to orchestrate the conversational workflow and to pass context such as the user profile and conversation state into the model.
 
 ## Security Notes

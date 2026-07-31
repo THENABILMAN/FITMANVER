@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fitman-dark: #0f1419;
+  --color-fitman-navy: #1a2332;
+  --color-fitman-card: #1e293b;
+  --color-fitman-accent: #14b8a6;
+  --color-fitman-accent-hover: #0d9488;
+  --color-fitman-blue: #3b82f6;
+  --color-fitman-muted: #94a3b8;
+  --color-fitman-border: #334155;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--color-fitman-dark);
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-fitman-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-fitman-border);
+  border-radius: 3px;
+}
